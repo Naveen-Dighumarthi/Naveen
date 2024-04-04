@@ -1,0 +1,33 @@
+
+{% load static %}
+<html>
+<head>
+<link href="{% static "cssfile/style.css" %}" rel="stylesheet">
+</head>
+<body>
+<h1 class="heading">recently played</h1>
+<div class="playlists-group">
+    <div class="playlist-card">
+        <img src="{% static 'images/car.jpeg' %}"  alt="car">
+        <p class="playlist-card-name">top international</p>
+    </div>
+    <div class="playlist-card">
+            <img src="{% static 'images/car.jpeg' %}"  alt="car">
+        <p class="playlist-card-name">BTS collection</p>
+    </div>
+    //+3 more
+</div>
+<h1 class="heading">based on your listening</h1>
+<div class="playlists-group">
+    <div class="playlist-card">
+      <img src="{% static 'images/car.jpeg' %}"  alt="car">
+        <p class="playlist-card-name">top international</p>
+    </div>
+    <div class="playlist-card">
+       <img src="{% static 'images/car.jpeg' %}"  alt="car">
+        <p class="playlist-card-name">BTS collection</p>
+    </div>
+    //+3 more
+</div>
+</body>
+</html>
